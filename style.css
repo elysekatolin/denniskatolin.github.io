@@ -7,7 +7,7 @@
 }
 .main-header {
   /* Replace with your image URL */
-  background-image: url('headerimage.jpg'); 
+  background-image: url('images/headerimage.jpg'); 
   
   /* Centers the image and scales it to fill the entire header area */
   background-position: center;
@@ -143,4 +143,38 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100dvh; /* Takes up the full height of the screen */
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    padding: 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+button {
+            background-color: #0A0E1A;
+            color: #D4AF37;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 25%;
+            font-size: 16px;
+            align-self: center; /* Centers the button horizontally */
+        }
+buttom:hover {
+            background-color: #6A96C4;
+        }
+.form-button {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 20px; /* Adds some space above the button */
 }
