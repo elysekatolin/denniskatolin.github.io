@@ -7,7 +7,7 @@
 }
 .main-header {
   /* Replace with your image URL */
-  background-image: url('images/headerimage.jpg'); 
+  background-image: url('headerimage.jpg'); 
   
   /* Centers the image and scales it to fill the entire header area */
   background-position: center;
