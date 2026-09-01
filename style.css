@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+     
+}
+.main-header {
+  /* Replace with your image URL */
+  background-image: url('images/headerimage.jpg'); 
+  
+  /* Centers the image and scales it to fill the entire header area */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%; /* Full width of the viewport */
+  /* Adjust the height of your header banner */
+  aspect-ratio: 50 / 9; /* Maintains a 16:9 aspect ratio */
+  /* Flexbox to center the text elements inside the header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #B59410;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:#D4AF37;
+    color: white;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 20px;
+    height: 100%;
+    font-family: cinzel, sans-serif;
+    font-size: 25px;
+}
+
+.nav-item{
+    height: 100%;
+    padding: 0 20px;
+}
+
+ul li a:link {
+    color: #0A0E1A;
+    text-decoration: none;
+    font-family: cinzel, sans-serif;
+    font-size: 25px;
+}
+
+ul li a:visited {
+    color: #0A0E1A;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #6A96C4
+    ;
+}
+
+.about-container {
+    display: flex;          /* Forces children into side-by-side columns */
+    align-items: flex-start;/* Aligns items to the top-left */
+    gap: 20px;              /* Creates fixed space between picture and text */
+    padding: 20px;
+}
+
+.name {
+    font-size: 32px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.about-container p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+  
+}
+
+
+ .profile-pic {
+    float: left;            /* Pushes image to top-left, text wraps around it */
+    width: 25%;           /* Set your desired width */
+    height: auto;        /* Set your desired height */
+    margin-right: 20px;     /* Pushes the text away from the right side of the image */
+    margin-bottom: 10px;    /* Pushes the text away from the bottom of the image */
+    object-fit: cover;      /* Prevents the image from stretching */
+  }
+
+
+
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color:#0A0E1A ;
+    color: #D4AF37;
+    font-size: 14px;
+}
+
+
+.content{
+    flex: 1; /* This allows the content to grow and fill the available space */
+    flex-grow: 1;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh; /* Takes up the full height of the screen */
+}
